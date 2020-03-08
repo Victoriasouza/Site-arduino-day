@@ -73,9 +73,9 @@ h2{
  font-size: 20px;
 }
 .boneco{
-    float: right;
+	float: right;
     padding: 20px;
-    width: 10px;
+    width: 0px;
     height: 10px;
 }
 
@@ -127,6 +127,99 @@ h3{
 	width: 185px;
 	margin: 0 20px;
 }
+
+html, body {
+	min-height: 100%;
+	height: auto
+}
+body {
+	background-image:linear-gradient(to bottom ,		#F5FFFA 0%, #ccc 100%);
+}
+.titulo {
+	
+	width: 100%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: left;
+	color:  #f09641;
+	font-size: 30px;
+	margin: 25px 0;
+}
+#box {
+	width: 880px;
+	height: auto;
+	margin: 15px auto;
+	display: block;
+	margin-bottom: 50px;
+}
+#box:after {
+	display: block;
+	content: '.';
+	line-height: 0;
+	visibility: hidden;
+}
+.estilizacao {
+	display: block;
+	width: 900px;
+	list-style: none;
+}
+.estilizacao li {
+	position: relative;
+	display: block;
+	float: right;
+	width: 400px;
+	height: 300px;
+	margin:20px;
+	cursor: pointer;
+}
+.estilizacao li img {
+	width: 100%;
+	height: 50%;
+	display: block;
+	z-index: 999;
+	position: absolute;
+	transition:.5s;
+}
+.conteudo {
+	display: block;
+	width: 100%;
+	height: 100px;
+	background-color:#202633;
+	overflow: hidden;
+	color: #fff;
+	margin-top: 50px;
+}
+.estilizacao li:hover img {
+	margin-top:-80px;
+}
+.conteudo p {
+	display: block;
+	color: #fff;
+	position: relative;
+	float: left;
+	width: 250px;
+	margin:10px;
+	margin-bottom: 0;
+	font-family: 'Lato', sans-serif;
+	text-indent: 10px;
+
+}
+.btn-more {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+	float: right;
+	padding:3px 10px;
+	background: #AE2341;
+	border-radius: 10px;
+	margin:10px;
+}
+.nome-secao {
+	font-size:18px;
+}
+.descricao {
+	font-size: 2px;
+}
 .contatos{
     color:white;
     font-family: cursive;
@@ -141,6 +234,8 @@ h3{
 	height: 150px;
 	background-color: #f09641;
 }
+
+
 
 #contato {
 	
@@ -171,5 +266,5 @@ h3{
 	width: 100%;
 }
 
-}
+
 
